@@ -1,16 +1,19 @@
 {
   "name": "Hack",
   "version": "0.1.0",
+  "homepage": "https://jackin1664.github.io/hack-rocket",
   "private": true,
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint"
+    "lint": "vue-cli-service lint",
+    "deploy": "gh-pages -d build"
   },
   "dependencies": {
     "core-js": "^3.6.5",
     "decimal.js": "^10.2.1",
     "echarts": "^4.9.0",
+    "gh-pages": "^3.1.0",
     "less": "^3.12.2",
     "less-loader": "^7.1.0",
     "v-charts": "^1.19.0",
